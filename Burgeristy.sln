@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgeristyAPI", "BurgeristyAPI\BurgeristyAPI.csproj", "{6E4C0B77-F22E-4F1A-86A3-63F6910E09D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgeristyUI", "BurgeristyUI\BurgeristyUI.csproj", "{60256767-CA5C-46BE-B93E-5B492997D63D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Burgeristy.EntityLayer", "Burgeristy.EntityLayer\Burgeristy.EntityLayer.csproj", "{FFE455B8-AAE3-4509-A961-77F8B2EB4F01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Burgeristy.DataAccessLayer", "Burgeristy.DataAccessLayer\Burgeristy.DataAccessLayer.csproj", "{EEAB3845-85AA-4F9C-A8E9-E54B258111C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Burgeristy.DtoLayer", "Burgeristy.DtoLayer\Burgeristy.DtoLayer.csproj", "{E54F3692-2547-45DB-8DDF-187DB5820092}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Burgeristy.BusinessLayer", "Burgeristy.BusinessLayer\Burgeristy.BusinessLayer.csproj", "{D5AA4DE5-8712-4DAD-9602-22F3F1E8FEEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E4C0B77-F22E-4F1A-86A3-63F6910E09D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E4C0B77-F22E-4F1A-86A3-63F6910E09D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E4C0B77-F22E-4F1A-86A3-63F6910E09D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E4C0B77-F22E-4F1A-86A3-63F6910E09D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60256767-CA5C-46BE-B93E-5B492997D63D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60256767-CA5C-46BE-B93E-5B492997D63D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60256767-CA5C-46BE-B93E-5B492997D63D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60256767-CA5C-46BE-B93E-5B492997D63D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE455B8-AAE3-4509-A961-77F8B2EB4F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE455B8-AAE3-4509-A961-77F8B2EB4F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE455B8-AAE3-4509-A961-77F8B2EB4F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE455B8-AAE3-4509-A961-77F8B2EB4F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEAB3845-85AA-4F9C-A8E9-E54B258111C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEAB3845-85AA-4F9C-A8E9-E54B258111C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEAB3845-85AA-4F9C-A8E9-E54B258111C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEAB3845-85AA-4F9C-A8E9-E54B258111C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E54F3692-2547-45DB-8DDF-187DB5820092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E54F3692-2547-45DB-8DDF-187DB5820092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E54F3692-2547-45DB-8DDF-187DB5820092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E54F3692-2547-45DB-8DDF-187DB5820092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5AA4DE5-8712-4DAD-9602-22F3F1E8FEEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5AA4DE5-8712-4DAD-9602-22F3F1E8FEEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5AA4DE5-8712-4DAD-9602-22F3F1E8FEEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5AA4DE5-8712-4DAD-9602-22F3F1E8FEEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC062663-1A4D-488F-AD8E-82E3C6AB084D}
+	EndGlobalSection
+EndGlobal
