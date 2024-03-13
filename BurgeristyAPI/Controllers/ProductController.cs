@@ -1,9 +1,11 @@
 ﻿using AutoMapper;
 using Burgeristy.BusinessLayer.Abstract;
+using Burgeristy.DataAccessLayer.Concrete;
 using Burgeristy.DtoLayer.ProductDto;
 using Burgeristy.EntityLayer.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace BurgeristyAPI.Controllers
 {
@@ -26,9 +28,24 @@ namespace BurgeristyAPI.Controllers
             return Ok(value);
         }
 
-        
+        [HttpGet("ProductListWithCategory")]
+        public IActionResult ProductListWithCategory()
+        {
+            var context = new AppDbContext();
+            var values = context.Products.Include(x => x.Category).Select(y => new ResultProductWithCategoryDto
+            {
+                Description = y.Description,
+                ImageUrl = y.ImageUrl,
+                Price = y.Price,
+                ProductID = y.ProductID,
+                ProductName = y.ProductName,
+                ProductStatus = y.ProductStatus,
+                CategoryName = y.Category.CategoryName
+            });
+            return Ok(values.ToList());
+        }
 
-        [HttpPost]
+         [HttpPost]
         public IActionResult CreateProduct(CreateProductDto createProductDto)
         {
             _productService.TAdd(new Product()

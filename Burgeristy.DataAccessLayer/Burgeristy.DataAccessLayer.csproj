@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Burgeristy.DtoLayer\Burgeristy.DtoLayer.csproj" />
     <ProjectReference Include="..\Burgeristy.EntityLayer\Burgeristy.EntityLayer.csproj" />
   </ItemGroup>
 

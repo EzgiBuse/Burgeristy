@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Burgeristy.DtoLayer.ProductDto
 {
-    public class ResultProductWithCategory
+    public class ResultProductWithCategoryDto
     {
         public int ProductID { get; set; }
         public string ProductName { get; set; }
